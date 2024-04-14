@@ -1,0 +1,23 @@
+# Multilanguage provided to the plugin, use identifiers=text to specify a multilingual text,such a
+# testplugin.helloworld=Hello World!
+# Support for multilingual text of parameters,such as
+# testplugin.helloworld=Hello {%0}!
+# {%n} will be populated with arguments with index n
+
+resourcechest.title={%0}
+
+messages.successful_placement=成功放置 {%0} 資源箱！
+messages.chest_removed=已移除此位置的 {%0} 資源箱！
+messages.already_opened_chest=你已經打開了一個箱子 {%0}
+messages.cannot_open_more=你不能再打開更多 {%0} 了！
+messages.wait_to_open=請在 {%1} 後再次打開 {%0}
+
+command.error.admin_rchest_gui=僅限玩家打開資源箱管理 GUI
+command.error.admin_rchest_not_completed=尚未完成
+command.error.create_rchest_fail=無法創建 ./chests/{%0}.yml，請檢查文件是否已存在！
+command.error.place_rchest_player_only=僅限玩家放置資源箱
+command.error.place_rchest_config_not_exist={%0} 資源箱配置不存在
+
+command.success.reload_rchest=已重載配置文件
+command.success.create_rchest_success=已成功創建 ./chests/{%0}.yml
+command.success.place_rchest_apply_config=請放置一個箱子，以應用 {%0} 資源箱配置

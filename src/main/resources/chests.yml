@@ -1,0 +1,18 @@
+canPutItem: false
+openCountMax: -1.0
+# 单位 秒
+refreshInterval: 86400.0
+randomItemInfo:
+  maxCount: 1.0
+  noRepetition: true
+fixedItem:
+- mi@1 琉璃圣水
+randomItem:
+- mi@1 山海经残页
+- mi@1 神来之笔
+- mi@1 嗜血珠碎片
+- mi@1 七彩霞光
+- mi@1 微弱的剑意
+- mi@1 镇妖符
+pos:
+- 1107 71 1181 rpg

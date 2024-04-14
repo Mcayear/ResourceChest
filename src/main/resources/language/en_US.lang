@@ -1,0 +1,23 @@
+# Multilanguage provided to the plugin, use identifiers=text to specify a multilingual text,such a
+# testplugin.helloworld=Hello World!
+# Support for multilingual text of parameters,such as
+# testplugin.helloworld=Hello {%0}!
+# {%n} will be populated with arguments with index n
+
+resourcechest.title={%0}
+
+messages.successful_placement=Successfully placed {%0} resource chest!
+messages.chest_removed=Removed the {%0} resource chest at this location!
+messages.already_opened_chest=You have already opened a chest {%0}.
+messages.cannot_open_more=You cannot open more {%0}!
+messages.wait_to_open=Wait {%1} to open {%0} again.
+
+command.error.admin_rchest_gui=Only players can open the Resource Chest Management GUI.
+command.error.admin_rchest_not_completed=Not yet completed.
+command.error.create_rchest_fail=Failed to create ./chests/{%0}.yml. Please check if the file already exists!
+command.error.place_rchest_player_only=Only players can place Resource Chests.
+command.error.place_rchest_config_not_exist=Resource Chest configuration {%0} does not exist.
+
+command.success.reload_rchest=Configuration file reloaded successfully.
+command.success.create_rchest_success=Successfully created ./chests/{%0}.yml.
+command.success.place_rchest_apply_config=Please place a chest to apply the {%0} Resource Chest configuration.
